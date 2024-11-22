@@ -30,7 +30,7 @@ function updateLoadingBar() {
 }
 
 function showQuestion(index) {
-    surveyContainer.innerHTML = ""; // Golește containerul înainte de a adăuga întrebare
+    surveyContainer.innerHTML = ""; 
 
     const questionDiv = document.createElement("div");
     questionDiv.classList.add("question-container");
